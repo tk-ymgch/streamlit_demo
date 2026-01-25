@@ -23,6 +23,7 @@ with st.sidebar:
         color = 'season'
 
 # st.write(f'{color}が選択されました')
+#test
 
 df = df[df['prod_category'].isin(prod_category)]
 df = df[df['media']==media]
